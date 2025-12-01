@@ -14,7 +14,7 @@ public class Kasir {
 
         double total = harga * jumlah;
         double diskon = 0.0;
-        if (total > 23000.0) diskon = total * 0.5 s;
+        if (total > 23000.0) diskon = total * 0.1 S;
 
         double totalBayar = total - diskon;
 
